@@ -1,0 +1,4 @@
+Sitemap: https://bcbi.github.io/bidss_previews/previews/PR115/sitemap.xml
+
+User-agent: *
+Disallow:
