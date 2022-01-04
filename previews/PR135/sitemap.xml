@@ -62,6 +62,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/home/index.html</loc>
+    <lastmod>2022-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://bcbi.github.io/bidss_previews/previews/PR135/CONTRIBUTING/index.html</loc>
     <lastmod>2022-01-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -86,25 +92,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/index.html</loc>
-    <lastmod>2022-01-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/numbers/index.html</loc>
     <lastmod>2022-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/databases/index.html</loc>
+    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats-2/index.html</loc>
     <lastmod>2022-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats-2/index.html</loc>
+    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/databases/index.html</loc>
     <lastmod>2022-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -224,7 +224,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/intro/</loc>
+    <loc>https://bcbi.github.io/bidss_previews/previews/PR135/index/</loc>
     <lastmod>2022-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
