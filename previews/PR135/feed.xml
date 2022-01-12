@@ -23,10 +23,86 @@
 
 <item>
   <title>
+    <![CDATA[  Software Engineering  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/theory/software_engineering/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/theory/software_engineering/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Knowledge Discovery  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/theory/knowledge_discovery/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/theory/knowledge_discovery/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Biomedical Informatics  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/theory/biomedical_informatics/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/theory/biomedical_informatics/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Scientific Method  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/theory/scientific_method/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/theory/scientific_method/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Statistics and Machine Learning &#40;Extra Resources&#41;  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats-2/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats-2/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/stats-2/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/stats-2/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -42,15 +118,72 @@
 
 <item>
   <title>
-    <![CDATA[  File Input/Output  ]]>
+    <![CDATA[  Analytic Pipelines &#40;Study 1&#41;  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/io/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/io/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/analytic_pipelines/study_1/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/analytic_pipelines/study_1/index.html </guid>
   <description>
-    <![CDATA[  BIDSS: File Input/Output  ]]>
+    <![CDATA[  BIDSS: Analytic Pipelines &#40;Study 1&#41;  ]]>
   </description>  
     
-  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Introduction to R  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/r/intro/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/r/intro/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Introduction to R  ]]>
+  </description>  
+    
+  <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Introduction to SQL  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/sql/intro/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/sql/intro/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Introduction to SQL  ]]>
+  </description>  
+    
+  <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Introduction to Python  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/python/intro/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/python/intro/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Introduction to Python  ]]>
+  </description>  
+    
+  <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -63,8 +196,8 @@
   <title>
     <![CDATA[  REPL &amp; Packages  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/repl/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/repl/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/repl/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/repl/index.html </guid>
   <description>
     <![CDATA[  BIDSS: REPL &amp; Packages  ]]>
   </description>  
@@ -80,29 +213,10 @@
 
 <item>
   <title>
-    <![CDATA[  Querying the MIMIC-III Demo Database  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/mimic/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/mimic/index.html </guid>
-  <description>
-    <![CDATA[  BIDSS: Querying the MIMIC-III Demo Database  ]]>
-  </description>  
-    
-  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
     <![CDATA[  Querying the EMRbots Database  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/emrbots/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/emrbots/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/emrbots/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/emrbots/index.html </guid>
   <description>
     <![CDATA[  BIDSS: Querying the EMRbots Database  ]]>
   </description>  
@@ -118,10 +232,48 @@
 
 <item>
   <title>
+    <![CDATA[  Querying the MIMIC-III Demo Database  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/mimic/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/mimic/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Querying the MIMIC-III Demo Database  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  File Input/Output  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/io/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/io/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: File Input/Output  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Strings, Characters, and Regular Expressions  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/strings/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/strings/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/strings/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/strings/index.html </guid>
   <description>
     <![CDATA[  BIDSS: Strings, Characters, and Regular Expressions  ]]>
   </description>  
@@ -137,29 +289,10 @@
 
 <item>
   <title>
-    <![CDATA[  Control Flow  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/control/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/control/index.html </guid>
-  <description>
-    <![CDATA[  BIDSS: Control Flow  ]]>
-  </description>  
-    
-  <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
     <![CDATA[  Numbers and Math in Julia  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/numbers/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/numbers/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/numbers/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/numbers/index.html </guid>
   <description>
     <![CDATA[  BIDSS: Numbers and Math  ]]>
   </description>  
@@ -177,8 +310,8 @@
   <title>
     <![CDATA[  Collections and Data Structures  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/collections/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/collections/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/collections/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/collections/index.html </guid>
   <description>
     <![CDATA[  BIDSS: Collections and Data Structures  ]]>
   </description>  
@@ -194,10 +327,29 @@
 
 <item>
   <title>
+    <![CDATA[  Control Flow  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/control/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/control/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Control Flow  ]]>
+  </description>  
+    
+  <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Introduction to Scientific Computing in Julia  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/intro/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/intro/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/intro/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/intro/index.html </guid>
   <description>
     <![CDATA[  BIDSS: Introduction to Scientific Computing in Julia  ]]>
   </description>  
@@ -232,25 +384,6 @@
 
 <item>
   <title>
-    <![CDATA[  The MIMIC-III Database Demo  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/unix/mimic/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/unix/mimic/index.html </guid>
-  <description>
-    <![CDATA[  BIDSS: MIMIC-III Database Demo  ]]>
-  </description>  
-    
-  <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
     <![CDATA[  Analyzing the Adult &#40;Census Income&#41; Data Set  ]]>
   </title>
   <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/unix/census/index.html </link>
@@ -270,10 +403,29 @@
 
 <item>
   <title>
+    <![CDATA[  The MIMIC-III Database Demo  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/unix/mimic/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/unix/mimic/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: MIMIC-III Database Demo  ]]>
+  </description>  
+    
+  <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Statistics  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/stats/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/stats/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/stats/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -289,105 +441,10 @@
 
 <item>
   <title>
-    <![CDATA[  Getting Started  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/vscode/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/vscode/index.html </guid>
-  <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Getting Started  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/julia/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/julia/index.html </guid>
-  <description>
-    <![CDATA[  Instructions on how to install the Julia programming language on macOS and Windows.  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
     <![CDATA[  Setup  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/setup/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/setup/index.html </guid>
-  <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Unix Operating System  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/unix/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/unix/index.html </guid>
-  <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  DataFrames  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/dataframes/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/dataframes/index.html </guid>
-  <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Databases and MySQL  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/databases/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/databases/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/setup/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/setup/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -405,8 +462,8 @@
   <title>
     <![CDATA[  Getting Started  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/filezilla/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/filezilla/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/filezilla/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/filezilla/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -424,8 +481,27 @@
   <title>
     <![CDATA[  Getting Started  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/r/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/r/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/vscode/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/vscode/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Scientific Computing and Julia  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/viz/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/viz/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -443,8 +519,8 @@
   <title>
     <![CDATA[  Intro to R  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/R/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/R/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/R/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/R/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -460,48 +536,10 @@
 
 <item>
   <title>
-    <![CDATA[  Intro to Python  ]]>
+    <![CDATA[  Unix Operating System  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/python/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/python/index.html </guid>
-  <description>
-    <![CDATA[  Python is one of the many languages used in the data science community to perform data manipulation, statistical modeling and machine learning. There are certain tasks where Python excels and you may choose to use it over Julia. This section will provide you with the basic syntax of Python to get started.  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Getting Started with MySQL  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/mysql/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/db/mysql/index.html </guid>
-  <description>
-    <![CDATA[  BIDSS: Getting Started with MySQL  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Scientific Computing and Julia  ]]>
-  </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/viz/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/viz/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/unix/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/unix/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -519,8 +557,65 @@
   <title>
     <![CDATA[  Getting Started  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/intro/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/intro/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/intro/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/intro/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Intro to Python  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/python/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/python/index.html </guid>
+  <description>
+    <![CDATA[  Python is one of the many languages used in the data science community to perform data manipulation, statistical modeling and machine learning. There are certain tasks where Python excels and you may choose to use it over Julia. This section will provide you with the basic syntax of Python to get started.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Scientific Computing and Julia  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/computing/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/computing/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Getting Started  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/r/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/r/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
   </description>  
@@ -538,8 +633,8 @@
   <title>
     <![CDATA[  Linux for Windows  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/wsl/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/setup/wsl/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/wsl/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/wsl/index.html </guid>
   <description>
     <![CDATA[  Instructions on getting started with Windows Subsystem for Linux.  ]]>
   </description>  
@@ -555,12 +650,69 @@
 
 <item>
   <title>
-    <![CDATA[  Scientific Computing and Julia  ]]>
+    <![CDATA[  DataFrames  ]]>
   </title>
-  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/computing/index.html </link>
-  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/computing/computing/index.html </guid>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/dataframes/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/dataframes/index.html </guid>
   <description>
     <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Databases and MySQL  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/databases/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/programming/julia/databases/index.html </guid>
+  <description>
+    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Getting Started  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/julia/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/setup/julia/index.html </guid>
+  <description>
+    <![CDATA[  Instructions on how to install the Julia programming language on macOS and Windows.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Brown Center for Biomedical Informatics (BCBI) at Brown University</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Getting Started with MySQL  ]]>
+  </title>
+  <link> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/mysql/index.html </link>
+  <guid> https://bcbi.github.io/bidss_previews/previews/PR135/infrastructure/data/mysql/index.html </guid>
+  <description>
+    <![CDATA[  BIDSS: Getting Started with MySQL  ]]>
   </description>  
     
   <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
