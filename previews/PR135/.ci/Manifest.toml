@@ -16,9 +16,9 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[CSV]]
 deps = ["CodecZlib", "Dates", "FilePathsBase", "InlineStrings", "Mmap", "Parsers", "PooledArrays", "SentinelArrays", "Tables", "Unicode", "WeakRefStrings"]
-git-tree-sha1 = "49f14b6c56a2da47608fe30aed711b5882264d7a"
+git-tree-sha1 = "9519274b50500b8029973d241d32cfbf0b127d97"
 uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-version = "0.9.11"
+version = "0.10.2"
 
 [[CategoricalArrays]]
 deps = ["DataAPI", "Future", "Missings", "Printf", "Requires", "Statistics", "Unicode"]
@@ -28,9 +28,9 @@ version = "0.10.2"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "54fc4400de6e5c3e27be6047da2ef6ba355511f8"
+git-tree-sha1 = "f9982ef575e19b0e5c7a98c6e75ee496c0f73a93"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "1.11.6"
+version = "1.12.0"
 
 [[ChangesOfVariables]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Test"]
@@ -140,10 +140,10 @@ uuid = "59287772-0a20-5a39-b81b-1366585eb4c0"
 version = "0.4.2"
 
 [[Franklin]]
-deps = ["Dates", "DelimitedFiles", "DocStringExtensions", "ExprTools", "FranklinTemplates", "HTTP", "Literate", "LiveServer", "Logging", "Markdown", "NodeJS", "OrderedCollections", "Pkg", "REPL", "Random"]
-git-tree-sha1 = "f42b7a1622802b6cdefff0dc21c971948e962e21"
+deps = ["Dates", "DelimitedFiles", "DocStringExtensions", "ExprTools", "FranklinTemplates", "HTTP", "Literate", "LiveServer", "Logging", "Markdown", "NodeJS", "OrderedCollections", "Pkg", "REPL", "Random", "TOML"]
+git-tree-sha1 = "74ab12901ff55d4aec5864bc46b8bf16db0ea2ed"
 uuid = "713c75ef-9fc9-4b05-94a9-213340da978e"
-version = "0.10.66"
+version = "0.10.69"
 
 [[FranklinTemplates]]
 deps = ["LiveServer"]
@@ -383,9 +383,9 @@ version = "0.8.3"
 
 [[RDatasets]]
 deps = ["CSV", "CodecZlib", "DataFrames", "FileIO", "Printf", "RData", "Reexport"]
-git-tree-sha1 = "d3780d4626d6104068c151e22965d9209ea41938"
+git-tree-sha1 = "2720e6f6afb3e562ccb70a6b62f8f308ff810333"
 uuid = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
-version = "0.7.6"
+version = "0.7.7"
 
 [[REPL]]
 deps = ["InteractiveUtils", "Markdown", "Sockets"]
