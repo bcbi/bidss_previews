@@ -1,0 +1,113 @@
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin=anonymous > <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <script src="/bidss_previews/previews/PR144/libs/lunr/lunr.min.js"></script> <script src="/bidss_previews/previews/PR144/libs/lunr/lunr_index.js"></script> <script src="/bidss_previews/previews/PR144/libs/lunr/lunrclient.min.js"></script> <link rel=stylesheet  href="/bidss_previews/previews/PR144/libs/font-awesome/css/font-awesome.min.css"> <link rel=stylesheet  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin=anonymous > <link rel=stylesheet  href="/bidss_previews/previews/PR144/libs/highlight/github.min.css"> <link rel=stylesheet  href="/bidss_previews/previews/PR144/css/jtd.css"> <link rel=icon  href="/bidss_previews/previews/PR144/assets/favicon.ico"> <title>Analyzing the Adult (Census Income) Data Set</title> <header> <a class=skip_main  href="#main">Skip to main content</a> <nav class="navbar navbar-expand-lg navbar-light nav-main"> <!-- <button class="navbar-toggler custom-toggler" type=button  data-toggle=collapse  data-target="#navbarContents" aria-expanded=false  aria-label="Toggle navigation"> <span class=navbar-toggler-icon ></span> </button> --> <div class=logo-box > <a href="/bidss_previews/previews/PR144/"><img class=img-logo  src="/bidss_previews/previews/PR144/assets/bidss_logo_white.png" alt = "BIDSS"></a> </div> <div class=nav-middleitems-wrapper > <div class=nav-middleitems-header > <!-- <div class=nav-middleitem  style="border-bottom-color: transparent;"> <a class=nav-middleitem-button  target=_blank  rel="noopener noreferrer" href="#"> <span class=nav-middleitem-text >Home</span> </a> </div> --> <!-- <div class=nav-middleitem  style="border-bottom-color: transparent;"> <a class=nav-middleitem-button  target=_blank  rel="noopener noreferrer" href="#"> <span class=nav-middleitem-text >Getting Started</span> </a> </div> --> <!-- <div class=nav-middleitem  style="border-bottom-color: transparent;"> <a class=nav-middleitem-button  target=_blank  rel="noopener noreferrer" href="#"> <span class=nav-middleitem-text >Documentation</span> </a> </div> --> <!-- <div class=nav-middleitem  style="border-bottom-color: transparent;"> <a class=nav-middleitem-button  target=_blank  rel="noopener noreferrer" href="#"> <span class=nav-middleitem-text >GitHub</span> </a> </div> --> </div> </div> <div class=searchbox-wrapper > <form id=lunrSearchForm  name=lunrSearchForm > <button class="fa fa-search search-icon" aria-hidden=true  formaction="/bidss_previews/previews/PR144/search/index.html"></button> <input class=search-input  name=q  placeholder=Search...  type=text > </form> </div> </nav> </header> <div class=page-wrap > <div class=sidenav > <div class=sidenav-wrap > <ul class=menu-list > <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/home" class="menu-list-link "><b>Home</b> </a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/about" class="menu-list-link "><b>About</b> </a> <div class=section-title >Theory</div> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/biomedical_informatics/" class="menu-list-link "><b>1.1</b> Biomedical Informatics</a> <ul class=menu-list > <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/health_data/" class="menu-list-link "><b>1.2</b> Health Data</a> <ul class="menu-list-child-list "> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/ehr/" class="menu-list-link "><b>1.2.1</b> Electronic Health Records</a> </ul> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/software_engineering/" class="menu-list-link "><b>1.3</b> Software Engineering</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/research_process/" class="menu-list-link "><b>1.4</b> Research Process</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/standards/" class="menu-list-link "><b>1.5</b> Standards</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/interoperability/" class="menu-list-link "><b>1.6</b> Interoperability </a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/information_retrieval/" class="menu-list-link "><b>1.7</b> Information Retrieval</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/analytic_pipelines/" class="menu-list-link "><b>1.8</b> Analytic Pipelines</a> <ul class=menu-list > <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/ai/" class="menu-list-link "><b>1.9</b> Artificial Intelligence</a> <ul class="menu-list-child-list "> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/ml/" class="menu-list-link "><b>1.9.1</b> Machine Learning</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/nlp/" class="menu-list-link "><b>1.9.2</b> Natural Language Processing</a> </ul> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/cds/" class="menu-list-link "><b>1.10</b> Clinical Decision Support</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/theory/lhs/" class="menu-list-link "><b>1.11</b> Learning Health System</a> <div class=section-title >Infrastructure</div> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/infrastructure/setup/intro/" class="menu-list-link "><b>2</b> Setup</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/intro/" class="menu-list-link "><b>2.1</b> Overview</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/oscar/" class="menu-list-link "><b>2.2</b> Oscar</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/github/" class="menu-list-link "><b>2.3</b> GitHub</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/github_oscar/" class="menu-list-link "><b>2.3.1</b> GitHub in Oscar</a> </ul> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/wsl/" class="menu-list-link "><b>2.3</b> Linux for Windows</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/julia/" class="menu-list-link "><b>2.4</b> Julia</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/r/" class="menu-list-link "><b>2.5</b> R</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/vscode/" class="menu-list-link "><b>2.6</b> VS Code</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/setup/filezilla/" class="menu-list-link "><b>2.7</b> FileZilla</a> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/infrastructure/data/datasets/" class="menu-list-link "><b>3</b> Data</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/infrastructure/data/datasets/" class="menu-list-link "><b>3.1</b> Getting Started with Databases</a> </ul> <div class=section-title >Programming</div> <li class="menu-list-item active"><a href="/bidss_previews/previews/PR144/programming/unix/intro/" class="menu-list-link active"><b>4</b> Unix</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/unix/intro/" class="menu-list-link "><b>4.1</b> Getting Started with Unix</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/unix/census/" class="menu-list-link active"><b>4.2</b> Analyzing the Adult (Census Income) Data Set</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/unix/mimic/" class="menu-list-link "><b>4.3</b> Analyzing the MIMIC-III Demo Data Set</a> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/programming/sql/intro/" class="menu-list-link "><b>5</b> SQL</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/sql/intro/" class="menu-list-link "><b>4.1</b> Getting Started with SQL</a> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/programming/julia/intro/" class="menu-list-link "><b>6</b> Julia</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/intro/" class="menu-list-link "><b>6.1</b> Getting Started with Scientific Computing</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/numbers/" class="menu-list-link "><b>6.2</b> Numbers and Math</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/strings/" class="menu-list-link "><b>6.3</b> Strings, Characters, and Regular Expressions</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/control/" class="menu-list-link "><b>6.4</b> Control Flow</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/collections/" class="menu-list-link "><b>6.5</b> Collections and Data Structures</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/io/" class="menu-list-link "><b>6.6</b> File Input/Output</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/repl/" class="menu-list-link "><b>6.7</b> REPL and Packages</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/dataframes/" class="menu-list-link "><b>6.8</b> DataFrames</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/stats/" class="menu-list-link "><b>6.9</b> Statistics and Machine Learning</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/stats-2/" class="menu-list-link "><b>6.9.1</b> Stats/ML (Extra Resources)</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/viz/" class="menu-list-link "><b>6.10</b> Plotting and Visualization</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/R/" class="menu-list-link "><b>6.11</b> Intro to R</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/julia/python/" class="menu-list-link "><b>6.12</b> Intro to Python</a> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/programming/python/intro/" class="menu-list-link "><b>7</b> Python</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/python/intro/" class="menu-list-link "><b>7.1</b> Intro to Python</a> </ul> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/programming/r/intro/" class="menu-list-link "><b>8</b> R</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/programming/r/intro/" class="menu-list-link "><b>8.1</b> Intro to R</a> </ul> <div class=section-title >Analytic Pipelines</div> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/analytic_pipelines/intro/" class="menu-list-link "><b>9.1</b> Introduction</a> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/analytic_pipelines/study_1/" class="menu-list-link "><b>9.2</b> Study 1</a> <div class=section-title >Course Outlines</div> <li class="menu-list-item "><a href="/bidss_previews/previews/PR144/courses/intro/" class="menu-list-link "><b>10</b> Course Materials</a> <ul class="menu-list-child-list "> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/courses/methods_course" class="menu-list-link "><b>10.1</b> BIOL155/PHP 2561</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/courses/biol6535" class="menu-list-link "><b>10.2</b> BIOL 6535</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/courses/n3c_course" class="menu-list-link "><b>10.3</b> N3C Short Course</a> <li class=menu-list-item ><a href="/bidss_previews/previews/PR144/courses/4day" class="menu-list-link "><b>10.4</b> Four-Day Short Course</a> </ul> </ul> </div> <div class=footer > <a href = "https://www.brown.edu/academics/medical/about-us/research/centers-institutes-and-programs/biomedical-informatics/" target=_blank > <img src="/bidss_previews/previews/PR144/assets/bcbi_logo.png" alt = "Brown Center for Biomedical Informatics" class=bcbi-logo > </a> </div> </div> <div class=main > <div class=franklin-content ><h1 id=42_analyzing_the_adult_census_income_data_set ><a href="#42_analyzing_the_adult_census_income_data_set" class=header-anchor >4.2 Analyzing the Adult &#40;Census Income&#41; Data Set</a></h1> <div class=franklin-toc ><ol><li><a href="#documentation">Documentation</a><li><a href="#analyzing_adultdata_with_unix_commands">Analyzing Adult.data with Unix Commands</a><ol><li><a href="#getting_started">Getting Started</a><li><a href="#explore_the_data_files">Explore the Data Files</a></ol><li><a href="#exercises">Exercises</a></ol></div> <h2 id=documentation ><a href="#documentation" class=header-anchor >Documentation</a></h2> <ul> <li><p>The adult census income dataset is hosted at the <a href="https://archive.ics.uci.edu/ml/datasets/Adult" target=_blank >University of California Irvine machine learning repository.</a> </p> </ul> <h2 id=analyzing_adultdata_with_unix_commands ><a href="#analyzing_adultdata_with_unix_commands" class=header-anchor >Analyzing Adult.data with Unix Commands</a></h2> <h3 id=getting_started ><a href="#getting_started" class=header-anchor >Getting Started</a></h3> <ol> <li><p>Download <a href="https://raw.githubusercontent.com/bcbi/bidss/master/_data/adult/adult.data" target=_blank >adult.data</a> and <a href="https://raw.githubusercontent.com/bcbi/bidss/master/_data/adult/adult.names" target=_blank >adult.names</a> into the data directory</p> <li><p>Move files to a working directory &#40;see <a href="/bidss_previews/previews/PR144/programming/unix/intro">3.1 Getting Started</a> for more detail&#41;</p> <li><p>Open a Unix shell and navigate to that directory &#40;see <a href="/bidss_previews/previews/PR144/programming/unix/intro">3.1 Getting Started</a> for more detail&#41;</p> </ol> <p>Make a copy of the data file and rename:</p> <pre><code class="julia hljs">$ ls
+adult.data  adult.names
+$ cp adult.data adult.txt
+$ ls
+$ adult.data  adult.names  adult.txt</code></pre> <h3 id=explore_the_data_files ><a href="#explore_the_data_files" class=header-anchor >Explore the Data Files</a></h3> <p>Count number of lines in file using wc:</p> <pre><code class="julia hljs">$ wc adult.data
+   <span class=hljs-number >32562</span>  <span class=hljs-number >488415</span> <span class=hljs-number >3974305</span> adult.data
+$ wc -l adult.txt
+   <span class=hljs-number >32562</span> adult.txt</code></pre> <p>Look at contents of a text file &#40;to fill a screen&#41; using more or less: &#40;Use spacebar or up and down arrows to scroll through pages and then press q to quit&#41;:</p> <pre><code class="julia hljs">$ more adult.data
+$ less adult.data</code></pre> <p>Look at first and last lines of a text file &#40;to fill a screen&#41; using head or tail:</p> <pre><code class="julia hljs">$ head adult.data
+$ tail adult.data</code></pre> <p>Retrieve rows that contain a particular phrase using grep &#40;MacOS/Linux&#41; or select-string &#40;Windows&#41;:</p> <pre><code class="julia hljs">$ grep <span class=hljs-string >&quot;Bachelors&quot;</span> adult.data</code></pre>
+<p>Extract a specific field &#40;2&#41; from a delimited file using cut &#40;tab is default delimiter&#41;: &#40;Note that fields in adult.data are separated by both a comma and space &#40;‘, ‘&#41;, so there will be an extra space in front&#41;</p>
+<pre><code class="julia hljs">$ cut -f2 -d<span class=hljs-string >&#x27;,&#x27;</span> adult.data</code></pre>
+<p>Combine cut, sort, and uniq to determine how many times each value in field 2 occurs: &#40;Need to sort first, so that uniq will be able to correctly tabulate values; command only remembers most recent row and current total counts&#41;</p>
+<pre><code class="julia hljs">$ cut -f2 -d<span class=hljs-string >&#x27;,&#x27;</span> adult.data | sort | uniq -c
+   <span class=hljs-number >1</span>
+<span class=hljs-number >1836</span>  ?
+ <span class=hljs-number >960</span>  Federal-gov
+<span class=hljs-number >2093</span>  Local-gov
+   <span class=hljs-number >7</span>  Never-worked
+<span class=hljs-number >22696</span>  Private
+<span class=hljs-number >1116</span>  Self-emp-inc
+<span class=hljs-number >2541</span>  Self-emp-not-inc
+<span class=hljs-number >1298</span>  State-gov
+  <span class=hljs-number >14</span>  Without-pay
+$ cut -f2 -d<span class=hljs-string >&#x27;,&#x27;</span> adult.data | sort | uniq -c | sort -rn
+<span class=hljs-number >22696</span>  Private
+<span class=hljs-number >2541</span>  Self-emp-not-inc
+<span class=hljs-number >2093</span>  Local-gov
+<span class=hljs-number >1836</span>  ?
+<span class=hljs-number >1298</span>  State-gov
+<span class=hljs-number >1116</span>  Self-emp-inc
+ <span class=hljs-number >960</span>  Federal-gov
+  <span class=hljs-number >14</span>  Without-pay
+   <span class=hljs-number >7</span>  Never-worked
+   <span class=hljs-number >1</span></code></pre>
+<h2 id=exercises ><a href="#exercises" class=header-anchor >Exercises</a></h2>
+<ol>
+<li><p>Determine number of lines that have the value “Tech-support”.</p>
+
+</ol>
+<pre><code class="julia hljs">$ YOUR COMMAND HERE
+     <span class=hljs-number >928</span></code></pre>
+<ol start=2 >
+<li><p>Determine number of times each value in the occupation field occurs.</p>
+
+</ol>
+<pre><code class="julia hljs">$ YOUR COMMAND HERE
+<span class=hljs-number >4140</span>  Prof-specialty
+<span class=hljs-number >4099</span>  Craft-repair
+<span class=hljs-number >4066</span>  Exec-managerial
+<span class=hljs-number >3770</span>  Adm-clerical
+<span class=hljs-number >3650</span>  Sales
+<span class=hljs-number >3295</span>  Other-service
+<span class=hljs-number >2002</span>  Machine-op-inspct
+<span class=hljs-number >1843</span>  ?
+<span class=hljs-number >1597</span>  Transport-moving
+<span class=hljs-number >1370</span>  Handlers-cleaners
+ <span class=hljs-number >994</span>  Farming-fishing
+ <span class=hljs-number >928</span>  Tech-support
+ <span class=hljs-number >649</span>  Protective-serv
+ <span class=hljs-number >149</span>  Priv-house-serv
+   <span class=hljs-number >9</span>  Armed-Forces
+   <span class=hljs-number >1</span></code></pre>
+<ol start=3 >
+<li><p>Determine how to remove the extra space at the beginning of each value in the occupation field.</p>
+
+</ol>
+<pre><code class="julia hljs">$ YOUR COMMAND HERE
+<span class=hljs-number >4140</span> Prof-specialty
+<span class=hljs-number >4099</span> Craft-repair
+<span class=hljs-number >4066</span> Exec-managerial
+<span class=hljs-number >3770</span> Adm-clerical
+<span class=hljs-number >3650</span> Sales
+<span class=hljs-number >3295</span> Other-service
+<span class=hljs-number >2002</span> Machine-op-inspct
+<span class=hljs-number >1843</span> ?
+<span class=hljs-number >1597</span> Transport-moving
+<span class=hljs-number >1370</span> Handlers-cleaners
+ <span class=hljs-number >994</span> Farming-fishing
+ <span class=hljs-number >928</span> Tech-support
+ <span class=hljs-number >649</span> Protective-serv
+ <span class=hljs-number >149</span> Priv-house-serv
+   <span class=hljs-number >9</span> Armed-Forces
+   <span class=hljs-number >1</span></code></pre>
+<div class=page-foot >
+  <div class=copyright >
+    <small>
+      &copy; <a href="https://github.com/bcbi">Brown Center for Biomedical Informatics (BCBI) at Brown University</a>. Last updated: September 22, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>. Powered by the <a href="https://julialang.org">Julia programming language</a>.
+    </small>
+  </div>
+</div>
+</div>
+    </div> 
+    </div> <!-- end of class page-wrap-->
+    
+    
+      
+
+
+    
+  
+
+
+
+<script>
+$(window).scroll(function() {
+  var scrollTop = $(window).scrollTop();
+  if (scrollTop <= 80)
+      $('.sidenav').css('top', 80 - scrollTop);
+  else
+      $('.sidenav').css('top', 0);
+});
+</script>
