@@ -1,4 +1,5 @@
 // This file and its minified version is adapted from https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites which is unlicensed.
+// The function parseLunrResults has been adapted for use in the BIDSS Manual
 //
 
 "use strict";
@@ -32,16 +33,15 @@ function parseLunrResults(results) {
         var link = item["l"].replace("__site/", "");
         var result = ('<li><span class="result-title"><a href="' + link + '">'
                     + title + '</a></span>');
-        html.push(result);
+        // The following check was added manually for the BIDSS manual.
+        // If the entry is a tag, don't display it in the search results.
+        if (!/^Tag:/.test(title)) {
+            html.push(result);
+        }
     }
     if (html.length) {
-        if (/^Tag:/.test(title)) {
-            return "";
-        }
-        else {
-            html.join("");
-            return '<ul>'+html+'</ul>'
-        }
+        html.join("");
+        return '<ul>'+html+'</ul>'
     }
     else {
         return "";
